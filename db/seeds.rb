@@ -6,16 +6,21 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 car_attributes = [
-  {
-    name: 'Doc Hudson',
-    age: 67,
-    enjoys: 'Long naps on the couch, and a warm fire.'
-  },
-  {
-    name: 'Fillmore',
-    age: 36,
-    enjoys: 'Jimmy Hendrix, and late night tacos.'
-  }
+    {
+          name: 'Lightning McQueen',
+          age: 2,
+          enjoys: "Winning Races",
+        },
+        {
+          name: 'Doc Hudson',
+          age: 4,
+          enjoys: "Taking Life Easy",
+        },
+        {
+          name: 'Fillmore',
+          age: 12,
+          enjoys: "High Times",
+    }
 ]
 
 car_attributes.each do |attributes|
